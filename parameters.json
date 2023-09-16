@@ -1,1 +1,30 @@
-
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "routeTables_sn2rt_name": {
+            "value": null
+        },
+        "virtualMachines_SN2_name": {
+            "value": null
+        },
+        "sshPublicKeys_SN2_key_name": {
+            "value": null
+        },
+        "networkInterfaces_sn2123_name": {
+            "value": null
+        },
+        "networkSecurityGroups_SN2_nsg_name": {
+            "value": null
+        },
+        "virtualNetworks_pritiexample1vnet_name": {
+            "value": null
+        },
+        "azureFirewalls_pritiexample1vnet_Firewall_name": {
+            "value": null
+        },
+        "publicIPAddresses_pritiexample1vnet_firewall_publicIpAddress_name": {
+            "value": null
+        }
+    }
+}
